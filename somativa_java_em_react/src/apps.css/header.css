@@ -1,0 +1,34 @@
+header{
+    width: 100%; height: fit-content;
+    background-color: #1E1E1E;
+    display:flex; flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 2px 15px #000000 ;
+    border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;
+    position: sticky;
+    top: 0;
+}
+@keyframes img {
+    100% {transform: rotate(360deg);}
+}
+img{
+    height: 50%;
+    animation-name: img;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#header_img{
+    display: grid; place-items: center;
+}
+#page_title{
+    display: grid;
+    place-items: center;
+    position: relative;
+    right: 5%;
+    color: #55D7F9; text-shadow: #25606e 2px 2px 2px;
+    font-size: 7vw; font-weight: 900;
+}
+
+
+

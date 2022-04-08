@@ -1,0 +1,9 @@
+#main_div{
+    width: 80%; height: 100vh; margin: auto;
+    background-color: #ffffff;
+    box-shadow: #3719a5 2px 2px 37px;
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width: 0;
+}

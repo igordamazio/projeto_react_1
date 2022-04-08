@@ -1,0 +1,22 @@
+#imposto_container{
+    width: 80%; margin: auto; margin-top: 7%;
+    color: #1E1E1E;
+    font-size: 2em; font-weight: 600;
+    text-shadow: #55D7F9 1px 1px 1px;
+}
+#titulo{
+    background-color: #1E1E1E;
+    color: #55D7F9; text-shadow: #25606e 2px 2px 2px;
+    width: fit-content; padding: 0 10px 0 10px;
+    border-radius: 15px; box-shadow: #000000 1px 3px 4px;
+}
+#sal_bruto{
+    margin-top: 35px;
+}
+#dependentes{
+    margin-bottom: 25px;
+}
+#dependentes>input{
+    margin-left: 5%;
+}
+

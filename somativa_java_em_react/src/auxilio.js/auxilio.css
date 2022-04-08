@@ -1,0 +1,35 @@
+section{
+    margin-top: 10%;
+}
+#aux_titulo{
+    background-color: #1E1E1E;
+    color: #55D7F9; text-shadow: #25606e 2px 2px 2px;
+    width: fit-content; padding: 0 10px 0 10px;
+    border-radius: 15px; box-shadow: #000000 1px 3px 4px;
+    margin-bottom: 3%; margin-left: 10%; font-size: 2em;
+}
+#aux_div{
+    width: 80%; margin: auto; margin-top: 3%;
+    color: #1E1E1E;
+    font-size: 1.5em; font-weight: 600;
+    text-shadow: #55D7F9 1px 1px 1px;
+}
+#aux_inp_div>label{
+    color: #1E1E1E;
+    font-size: 2em; font-weight: 600;
+    text-shadow: #55D7F9 1px 1px 1px;
+    margin-left: 15%;
+}
+#quant_sal{
+    display: inline-block;
+    width: 60%;
+    margin-left: 7%;
+}
+#input_container{
+    display: inline-block;
+    width: 30%; 
+}
+#resultado{
+    margin-top: 5%;
+    font-size: 1.1em;
+}

@@ -1,0 +1,49 @@
+#js_div{
+    width: 80%; margin: auto; margin-top: 7%;
+    color: #1E1E1E;
+    font-size: 1.5em; font-weight: 600;
+    text-shadow: #55D7F9 1px 1px 1px;
+}
+#titulo{
+    background-color: #1E1E1E;
+    color: #55D7F9; text-shadow: #25606e 2px 2px 2px;
+    width: fit-content; padding: 0 10px 0 10px;
+    border-radius: 15px; box-shadow: #000000 1px 3px 4px;
+}
+#juros_simple_return{
+    width: 80%; margin: auto; margin-top: 35px;
+    color: #1E1E1E;
+    font-size: 1.5em; font-weight: 900;
+    text-shadow: #55D7F9 1px 1px 1px;
+}
+#taxa{
+    margin-top: 25px;
+}
+#tempo>input{
+    margin-left: 80px;
+}
+label{
+    margin-right: 25px; margin-left: 5%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+select{
+    margin-left: 2%;
+}
+::placeholder{
+    color: #55D7F9;
+  }
+input[type=number], select {
+    -moz-appearance:textfield;
+    background-color: #1E1E1E;
+    color: #55D7F9; text-shadow: #25606e 2px 2px 2px;
+    padding: 2px 1px 2px 1px; text-align: center;
+    border-radius: 15px; box-shadow: #000000 1px 3px 4px;
+    border: none;
+}
+input[type=number]:focus, select:focus{
+    outline: #55D7F9 1px solid;
+}
