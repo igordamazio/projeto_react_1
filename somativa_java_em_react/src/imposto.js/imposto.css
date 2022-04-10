@@ -3,6 +3,7 @@
     color: #1E1E1E;
     font-size: 2em; font-weight: 600;
     text-shadow: #55D7F9 1px 1px 1px;
+    margin-bottom: 200px;
 }
 #titulo{
     background-color: #1E1E1E;
@@ -20,3 +21,20 @@
     margin-left: 5%;
 }
 
+@media screen and (max-width: 1345px) {
+    #sal_bruto>label, #dependentes>label{
+        display: block;
+    }
+    #sal_bruto>input{
+        transform: translateX(23%);
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    #sal_bruto>input{
+        transform: translateX(10%);
+    }
+    #imposto_resultado{
+        text-align: center; margin-top: 55px;
+    }
+}

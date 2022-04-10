@@ -59,6 +59,10 @@ function Imposto(){
     else{
         imposto = sal_base*0.275 - 869.36;
     }
+
+    if(!imposto){
+        imposto = 0
+    }
     
 
     return(

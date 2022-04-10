@@ -45,6 +45,10 @@ function ValidarCPF(){
         mensagem = `O CPF ${cpf} é inválido!`
     }}
 
+    if(!cpf){
+        mensagem = ''
+    }
+
     return(
         <section id='3'>
             <div id='CPF_container'>

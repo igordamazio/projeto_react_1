@@ -47,3 +47,30 @@ input[type=number], select {
 input[type=number]:focus, select:focus{
     outline: #55D7F9 1px solid;
 }
+@media screen and (max-width: 900px) {
+    label{
+        display: block;
+        margin-bottom: 25px;
+    }
+    input{
+        display: block;
+    }
+    select{
+        transform: translate(250%, -150%);
+    }
+    h2{
+        font-size: 1em;
+    }
+    #tempo>input{
+        transform: translateX(-45%);
+    }
+    #tempo>select{
+        transform: translate(300%, -150%);
+    }
+    #tempo{
+        margin-top: 35px;
+    }
+    #juros_simple_return{
+        text-align: justify;
+    }
+}

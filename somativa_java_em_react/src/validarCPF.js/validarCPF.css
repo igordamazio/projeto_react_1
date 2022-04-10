@@ -17,3 +17,26 @@
 #resposta{
     margin-top: 5%; font-size: 1.2em;
 }
+
+
+@media screen and (max-width: 900px) {
+    #CPF{
+        width: 100%;
+    }
+    #CPF>label{
+        width: 50%;
+        display: inline-block;
+    }
+    #CPF>input{
+        width: 30%;
+        display: inline-block;
+    }
+    #resposta{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 350px) {
+    #CPF_container{
+        margin-top: 50%;
+    }
+}
