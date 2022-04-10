@@ -1,2 +1,2 @@
 # projeto_react_1
-Sistema desenvolvido em react como exercicio
+React app developed as exercise, it have many inputs to interact and solve some problems 
